@@ -54,7 +54,8 @@
         </tr>
         <tr>
             <td class="auto-style4">
-                <asp:TreeView ID="TreeView1" runat="server">
+                <asp:TreeView ID="TreeView1" runat="server" ImageSet="Arrows">
+                    <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
                     <Nodes>
                         <asp:TreeNode Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:TreeNode>
                         <asp:TreeNode Text="AboutMe" Value="AboutMe" NavigateUrl="~/AboutMe.aspx"></asp:TreeNode>
@@ -86,6 +87,10 @@
                                 <asp:TreeNode NavigateUrl="~/Chapter8/SQLCOMMAND.aspx" Text="SQLCOMMAND" Value="SQLCOMMAND"></asp:TreeNode>
                                 <asp:TreeNode NavigateUrl="~/Chapter8/ShowAllRecords.aspx" Text="ShowAllRecords" Value="ShowAllRecords"></asp:TreeNode>
                             </asp:TreeNode>
+                            <asp:TreeNode Text="Chapter9" Value="Chapter9">
+                                <asp:TreeNode NavigateUrl="~/Chapter9/Pro9-2-1.aspx" Text="Pro9-2-1" Value="Pro9-2-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter9/Pro9-2-3.aspx" Text="Pro9-2-3" Value="Pro9-2-3"></asp:TreeNode>
+                            </asp:TreeNode>
                         </asp:TreeNode>
                         <asp:TreeNode Text="Homework" Value="Homework">
                             <asp:TreeNode Text="Chapter4" Value="Chapter4">
@@ -112,8 +117,22 @@
                                 <asp:TreeNode Text="Pro8-2-1" Value="Pro8-2-1" NavigateUrl="~/Chapter8/Pro8-2-1.aspx"></asp:TreeNode>
                                 <asp:TreeNode Text="Pro8-2-2" Value="Pro8-2-2" NavigateUrl="~/Chapter8/Pro8-2-2.aspx"></asp:TreeNode>
                             </asp:TreeNode>
+                            <asp:TreeNode Text="Chapter8_2nd" Value="Chapter8_2nd">
+                                <asp:TreeNode NavigateUrl="~/Chapter8/Assignment1.aspx" Text="Assignment1" Value="Assignment1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter8/Assignment2.aspx" Text="Assignment2" Value="Assignment2"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter8/Assignment3.aspx" Text="Assignment3" Value="Assignment3"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter8/Assignment4.aspx" Text="Assiginment4" Value="Assiginment4"></asp:TreeNode>
+                                <asp:TreeNode Text="Chapter9" Value="Chapter9">
+                                    <asp:TreeNode NavigateUrl="~/Chapter9/Assignment1.aspx" Text="Assignment1" Value="Assignment1"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Chapter9/Assignment2.aspx" Text="Assignment2" Value="Assignment2"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/Chapter9/Assignment3.aspx" Text="Assignment3" Value="Assignment3"></asp:TreeNode>
+                                </asp:TreeNode>
+                            </asp:TreeNode>
                         </asp:TreeNode>
                     </Nodes>
+                    <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                    <ParentNodeStyle Font-Bold="False" />
+                    <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
                 </asp:TreeView>
             </td>
             <td class="auto-style3">
