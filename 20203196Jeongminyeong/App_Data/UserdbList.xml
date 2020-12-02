@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Guest>
+  <guest name="정보통" id="btjung" email="ywlee@inje.ac.kr" sex="M" mileage="2800" level="C" date="2019-12-15 오전 8:16:08" />
+  <guest name="정민영" id="정민영" email=" 20203196" sex="test" mileage="test" level="test" date="2020-11-28 오후 3:00:45" />
+  <guest name="정민영" id="정민영" email=" 20203196" sex="test" mileage="test" level="test" date="2020-11-28 오후 3:05:02" />
+</Guest>
