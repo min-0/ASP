@@ -21,13 +21,14 @@ public partial class Chapter8_Assignment2 : System.Web.UI.Page
         // SQL COMMAND OBJECT를 만들고  SQL COMMAND 넣기
         SqlCommand Cmd = new SqlCommand();
         Cmd.Connection = Con;
-        if (DropDownList1.SelectedItem.Text == "Table 정렬 안 함")
+        if (DropDownList2.SelectedValue == "Table 정렬 안함")
         {
-            Cmd.CommandText = "SELECT * FROM userDB WHERE mileage" + DropDownList1.SelectedValue + TextBox1.Text;
+            Cmd.CommandText = "SELECT * FROM userdb WHERE mileage " + DropDownList1.SelectedValue + TextBox1.Text;
         }
         else
         {
-            Cmd.CommandText = "SELECT * FROM userDB WHERE mileage" + DropDownList1.SelectedValue + TextBox1.Text;
+            Cmd.CommandText = "SELECT * FROM userdb WHERE mileage " + DropDownList1.SelectedValue + TextBox1.Text +
+                                "ORDER BY mileage " + DropDownList2.SelectedValue;
         }
 
         // SQL COMMAND 수행하기
