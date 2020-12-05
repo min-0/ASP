@@ -1,0 +1,6 @@
+C:\Users\정민영\Desktop\기말대비\기말대비\obj\Debug\기말대비.csprojResolveAssemblyReference.cache
+C:\Users\정민영\Desktop\기말대비\기말대비\bin\기말대비.dll.config
+C:\Users\정민영\Desktop\기말대비\기말대비\bin\기말대비.dll
+C:\Users\정민영\Desktop\기말대비\기말대비\bin\기말대비.pdb
+C:\Users\정민영\Desktop\기말대비\기말대비\obj\Debug\기말대비.dll
+C:\Users\정민영\Desktop\기말대비\기말대비\obj\Debug\기말대비.pdb
