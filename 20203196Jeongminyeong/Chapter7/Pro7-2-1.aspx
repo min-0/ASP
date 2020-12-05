@@ -27,7 +27,7 @@
 </p>
 <p>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Button ID="Button1" runat="server" Text="전송" Height="24px" Width="51px" />
+    <asp:Button ID="Button1" runat="server" Text="전송" Height="24px" Width="51px" OnClick="Button1_Click" />
 </p>
 <p>
 </p>

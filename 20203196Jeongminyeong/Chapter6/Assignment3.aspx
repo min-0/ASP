@@ -12,7 +12,7 @@
             <asp:ListItem>과목 선택</asp:ListItem>
             <asp:ListItem Value="3">디지털신호처리</asp:ListItem>
             <asp:ListItem Value="1">교양세미나</asp:ListItem>
-            <asp:ListItem Value="2">이동통신공</asp:ListItem>
+            <asp:ListItem Value="2">이동통신공학</asp:ListItem>
             <asp:ListItem Value="4">프로그래밍실습</asp:ListItem>
         </asp:DropDownList>
     </p>

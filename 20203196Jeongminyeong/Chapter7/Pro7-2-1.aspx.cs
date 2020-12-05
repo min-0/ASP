@@ -11,4 +11,9 @@ public partial class Chapter7_Pro7_2_1 : System.Web.UI.Page
     {
 
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+
+    }
 }

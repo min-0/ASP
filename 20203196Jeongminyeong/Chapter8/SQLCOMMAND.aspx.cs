@@ -34,7 +34,7 @@ public partial class Chapter8_SQRCOMMAND : System.Web.UI.Page
         try
         {
             int rowsAffected = Cmd.ExecuteNonQuery();
-            Label1.Text = "Sql 문 excuted Success!";
+            Label2.Text = "Sql 문 excuted Success!";
 
         }
         catch (Exception ex)
@@ -42,5 +42,38 @@ public partial class Chapter8_SQRCOMMAND : System.Web.UI.Page
             Label2.Text = ex.Message;
         }
         Con.Close();
+    }
+
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        // 자신 PC의 SQLEXPRESS를 DB서버로 지정하고 사용 데이터베이스를 지정
+        string connectionString = @"server=(local)\SQLExpress;Integrated Security=true;database=VS20WEDAM";
+        SqlConnection Con = new SqlConnection(connectionString);
+
+        // SQL COMMAND OBJECT를 만들고  SQL COMMAND 넣기
+        SqlCommand Cmd = new SqlCommand();
+        Cmd.Connection = Con;
+        Cmd.CommandText = TextBox2.Text;
+
+        // SQL COMMAND 수행하기
+        Con.Open();
+        // ExecuteNonQuery()문은 CREATE, ALTER, DROP, INSERT, UPDATE, DELETE 문을 수행할때 사용
+        // 리턴 값은 영향을 받은 ROW의 갯수
+        try
+        {
+            int rowsAffected = Cmd.ExecuteNonQuery();
+            Label2.Text = "Sql 문 excuted Success!";
+
+        }
+        catch (Exception ex)
+        {
+            Label2.Text = ex.Message;
+        }
+        Con.Close();
+    }
+
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        Label2.Text = "";
     }
 }

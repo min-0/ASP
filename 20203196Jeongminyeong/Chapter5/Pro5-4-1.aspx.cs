@@ -11,24 +11,45 @@ public partial class Chapter5_Pro5_3_1 : System.Web.UI.Page
     {
 
     }
-    protected void Button1_Click(object sender, EventArgs e)
-    {
-        Image2.ImageUrl = "~/image/gg.jpg";
-    }
-    protected void Button3_Click(object sender, EventArgs e)
-    {
-        Image2.ImageUrl = "~/image/dg.jpg";
-    }
-    protected void Button5_Click(object sender, EventArgs e)
+
+
+    protected void Button1_Click1(object sender, EventArgs e)
     {
         Image2.ImageUrl = "~/image/gw.jpg";
     }
+    
     protected void Button2_Click(object sender, EventArgs e)
     {
         Image2.ImageUrl = "~/image/sg.jpg";
     }
+
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        //Image2.ImageUrl = "~/image/dg.jpg";
+    }
+
     protected void Button4_Click(object sender, EventArgs e)
     {
+        //Image2.ImageUrl = "~/image/ng.jpg";
+    }
+
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        //Image2.ImageUrl = "~/image/gg.jpg";
+    }
+
+    protected void Button3_Click1(object sender, EventArgs e)
+    {
+        Image2.ImageUrl = "~/image/dg.jpg";
+    }
+
+    protected void Button4_Click1(object sender, EventArgs e)
+    {
         Image2.ImageUrl = "~/image/ng.jpg";
+    }
+
+    protected void Button5_Click1(object sender, EventArgs e)
+    {
+        Image2.ImageUrl = "~/image/gg.jpg";
     }
 }

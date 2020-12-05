@@ -5,7 +5,11 @@
         width: 116%;
         height: 150px;
     }
-</style>
+        .auto-style9 {
+            text-align: center;
+            height: 29px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
@@ -14,9 +18,9 @@
 </p>
 <table class="auto-style8">
     <tr>
-        <td class="auto-style5" style="border-color: #C0C0C0; background-color: #CCFFFF">bgcolor=&quot;#CCFFFF&quot;</td>
-        <td class="auto-style5" style="border-color: #C0C0C0; background-color: #FFFF00">bgcolor=&quot;#FFFF00&quot;</td>
-        <td class="auto-style5" style="border-color: #C0C0C0; background-color: #CC99FF">bgcolor=&quot;#CC99FF&quot;</td>
+        <td class="auto-style9" style="border-color: #C0C0C0; background-color: #CCFFFF">bgcolor=&quot;#CCFFFF&quot;</td>
+        <td class="auto-style9" style="border-color: #C0C0C0; background-color: #FFFF00">bgcolor=&quot;#FFFF00&quot;</td>
+        <td class="auto-style9" style="border-color: #C0C0C0; background-color: #CC99FF">bgcolor=&quot;#CC99FF&quot;</td>
     </tr>
     <tr>
         <td style="border-color: #C0C0C0; background-color: #99FFCC">&nbsp;</td>

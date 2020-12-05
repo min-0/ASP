@@ -1,6 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeFile="Pro6-2-1.aspx.cs" Inherits="Chapter6_Pro6_2_1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+        .auto-style8 {
+            position: absolute;
+            top: 141px;
+            left: 308px;
+            bottom: 385px;
+            z-index: 1;
+            height: 23px;
+            width: 606px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <p>
@@ -27,7 +38,7 @@
             <asp:ListItem Value="4">프로그래밍실습</asp:ListItem>
         </asp:DropDownList>
     </p>
-    <p style="position: absolute; top: 141px; left: 308px; bottom: 809px; z-index: 1; height: 23px; width: 606px">
+    <p class="auto-style8">
         <asp:Label ID="Label3" runat="server" style="z-index: 1; left: 176px; top: 4px; position: absolute; right: 239px" Text="수강 신청 목록"></asp:Label>
     </p>
     <p>

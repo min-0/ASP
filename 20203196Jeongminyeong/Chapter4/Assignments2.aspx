@@ -48,10 +48,10 @@
     .auto-style19 {
         text-align: center;
         width: 194px;
-        height: 152px;
+        height: 151px;
     }
     .auto-style20 {
-        height: 152px;
+        height: 151px;
         width: 140px;
     }
     .auto-style22 {
@@ -70,12 +70,16 @@
         width: 152px;
     }
     .auto-style32 {
-        height: 152px;
+        height: 151px;
         width: 152px;
     }
     .auto-style33 {
         width: 152px;
     }
+        .auto-style34 {
+            height: 27px;
+            width: 29px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -101,9 +105,9 @@
                                     <td class="auto-style29" style="background-color: #800080">&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="auto-style29" style="background-color: #800080">&nbsp;</td>
-                                    <td class="auto-style29" style="background-color: #800080">&nbsp;</td>
-                                    <td class="auto-style29" style="background-color: #800080">&nbsp;</td>
+                                    <td class="auto-style34" style="background-color: #800080"></td>
+                                    <td class="auto-style34" style="background-color: #800080"></td>
+                                    <td class="auto-style34" style="background-color: #800080"></td>
                                 </tr>
                                 <tr>
                                     <td class="auto-style30" style="background-color: #800080"></td>

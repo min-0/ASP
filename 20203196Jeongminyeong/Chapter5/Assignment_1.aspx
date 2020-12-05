@@ -89,7 +89,6 @@
     <p class="auto-style24">
         <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 회원 가입 양식</strong></p>
     <p>
-        <asp:Button ID="Button1" runat="server" Text="비우기" style="z-index: 1; left: 439px; top: 555px; position: absolute; height: 25px; width: 65px" OnClick="Button1_Click" />
         <table class="auto-style25">
             <tr>
                 <td class="auto-style28">로그인 정보(필수)</td>
@@ -156,14 +155,14 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style27">이름(영문) :</td>
-                <td class="auto-style31">
+                <td class="auto-style35">이름(영문) :</td>
+                <td class="auto-style36">
                     <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
                 </td>
-                <td class="auto-style38">
+                <td class="auto-style40">
                     <asp:Label ID="Label7" runat="server"></asp:Label>
                 </td>
-                <td class="auto-style5">
+                <td class="auto-style37">
                     <asp:Label ID="Label17" runat="server"></asp:Label>
                 </td>
             </tr>
@@ -218,17 +217,10 @@
         </table>
     </p>
     <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="비우기" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click1" Text="확인" />
     </p>
-    <p>
-    </p>
-    <p>
-        <asp:Button ID="Button2" runat="server" Text="확인" style="z-index: 1; left: 561px; top: 555px; position: absolute; height: 25px; width: 65px; margin-bottom: 13px" OnClick="Button2_Click" />
-    </p>
-    <p>
-    </p>
-    <p>
-    </p>
-    <p>
-    </p>
-</asp:Content>
+    </asp:Content>
 

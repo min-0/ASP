@@ -67,8 +67,10 @@ public partial class Chapter6_Pro6_1_1 : System.Web.UI.Page
         ListBox2.Items.Clear();
         ListBox3.Items.Clear();
 
-        Label2.Text = "";
+        Label1.Text = "";
         Label3.Text = "";
         Label5.Text = "";
+
+        Label2.Text = "중복주문 경고표시";
     }
 }

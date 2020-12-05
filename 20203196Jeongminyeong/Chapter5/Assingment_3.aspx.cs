@@ -13,7 +13,7 @@ public partial class Chapter5_Assingment3 : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        Label2.Text = "";
+        Label1.Text = "";
         Label3.Text = "";
         if (웹프로그래밍.Checked == false && 신호해석.Checked == false && 디지털공학.Checked == false && 공업수학.Checked == false)
         {
